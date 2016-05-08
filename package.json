@@ -1,0 +1,21 @@
+{
+  "name": "cliffords-portfolio-site",
+  "description": "the portfolio of Clifford Ryan Nelson",
+  "version": "1.0.1",
+  "author": {
+    "name": "Clifford Ryan Nelson",
+    "email": "cliffordryannelson@gmail.com",
+    "url": "http://www.cliffordryannelson.com/"
+  },
+  "repository": "https://github.com/commander-clifford/portfolio.git",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csso": "^0.6.5"
+  }
+}
