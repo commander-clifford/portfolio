@@ -15,30 +15,41 @@
 </head>
 <body>
 
-  <div id="body" class="body" >
-
+  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
     <div id="cover-wrapper" class="cover-wrapper container-fluid ">
       <?php include('components/cover.php'); ?>
+    </div>      
+  <?php else: ?>
+    <div id="navbar" class="navbar">
+      <a href="index.php"> < home</a>
     </div>
+    <div id="header-wrapper">
+      <header>
+        <h1>header</h1>
+      </header>  
+    </div>
+  <?php endif; ?>
 
+  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
     <div id="inner-wrapper" class="inner-wrapper">
+  <?php endif; ?>
 
       <div id="page-wrapper" class="page-wrapper container-fluid">
         <?php 
-        //logic to load the correct page contents.
-        //URI will look like domain/index.php?page=something
+          //logic to load the correct page contents.
+          //URI will look like domain/index.php?page=something
           switch( $_GET['page'] ){
 
             case 'home':
-              include('pages/home.php');
+            include('pages/home.php');
             break;
 
             case 'about':
-              include('pages/about.php');
+            include('pages/about.php');
             break;
 
             default:
-              include('pages/home.php');
+            include('pages/home.php');
           }//end switch
         ?>
       </div>
@@ -47,14 +58,14 @@
         <?php include('components/footer.php'); ?>
       </div>
 
-    </div>
-
-  </div>
+  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
+    </div><!-- /inner-wrapper -->
+  <?php endif; ?>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
-  </body>
+</body>
 </html>
