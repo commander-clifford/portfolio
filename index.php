@@ -23,7 +23,7 @@
 
     <div id="inner-wrapper" class="inner-wrapper">
 
-      <div id="page-wrapper" class="page-wrapper container">
+      <div id="page-wrapper" class="page-wrapper container-fluid">
         <?php 
         //logic to load the correct page contents.
         //URI will look like domain/index.php?page=something
@@ -43,7 +43,7 @@
         ?>
       </div>
 
-      <div id="footer-wrapper" class="footer-wrapper container">
+      <div id="footer-wrapper" class="footer-wrapper container-fluid">
         <?php include('components/footer.php'); ?>
       </div>
 

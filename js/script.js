@@ -4,11 +4,11 @@ function fitui(){
 
   var $cover = $("#cover");
   var $coverHeadline = $("#cover-headline");
-  var $pageWrapper = $("#page-wrapper");
+  var $innerWrapper = $("#inner-wrapper");
 
   $cover.height($win.height());
   $coverHeadline.css("line-height", $win.height()+"px");
-  $pageWrapper.css("margin-top", $win.height()+"px");
+  $innerWrapper.css("margin-top", $win.height()+"px");
 
 
 
