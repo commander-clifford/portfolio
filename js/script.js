@@ -11,7 +11,6 @@
     $cover.height($win.height());
     $coverHeadline.css("line-height", $win.height()+"px");
     $innerWrapper.css("margin-top", $win.height()+"px");
-    $innerWrapper.css("height", $win.height()+"px");
   }
 
   function scrollBlur(){
