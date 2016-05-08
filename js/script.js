@@ -1,42 +1,48 @@
-function fitui(){
+(function($){
 
-	var $win = $(window);
+  "use strict";
 
-  var $cover = $("#cover");
-  var $coverHeadline = $("#cover-headline");
-  var $innerWrapper = $("#inner-wrapper");
+  var $win = $(window),
+      $cover = $("#cover"),
+      $coverHeadline = $("#cover-headline"),
+      $innerWrapper = $("#inner-wrapper");
 
-  $cover.height($win.height());
-  $coverHeadline.css("line-height", $win.height()+"px");
-  $innerWrapper.css("margin-top", $win.height()+"px");
+  function fitui(){
+    $cover.height($win.height());
+    $coverHeadline.css("line-height", $win.height()+"px");
+    $innerWrapper.css("margin-top", $win.height()+"px");
+    $innerWrapper.css("height", $win.height()+"px");
+  }
 
+  function scrollBlur(){
 
+    var translateY = 1 - ($cover.height() / 2) * ( $win.scrollTop() / $cover.height() );
+    var blur = 10 * ( $win.scrollTop() / $cover.height() );
 
-}
-
-
-
-$(document).ready(function(){
-  fitui();
-});
-$(window).resize(function(){
-	fitui();
-});
-
-
-
-// ??
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top - 80 // navbar height
-        }, 1000);
-        return false;
-      }
+    if($win.scrollTop() === 0 ) {
+      $coverHeadline.css( "opacity", 1 );
+      $coverHeadline.css( "filter", "blur(0px)" );
+      $coverHeadline.css( "transform", "translateY(0px)" );
+    } else if($win.scrollTop() <= $cover.height() ) {
+      $coverHeadline.css( "opacity", 0.9 - ( $win.scrollTop() / $cover.height() ) );
+      $coverHeadline.css( "filter", "blur("+ blur +"px)" );
+      $coverHeadline.css( "transform", "translateY("+ translateY +"px)" );
+    } else {
+      $coverHeadline.css( "opacity", 0 );
+      $coverHeadline.css( "filter", "blur(10px)" );
     }
+  }
+  
+  $(document).ready(function(){
+    fitui();
   });
-});
+
+  $win.resize(function(){
+    fitui();
+  });
+
+  $win.scroll(function(){
+    scrollBlur();
+  });
+
+})(jQuery);
