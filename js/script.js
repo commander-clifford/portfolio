@@ -7,32 +7,6 @@
       $coverHeadline = $("#cover-headline"),
       $innerWrapper = $("#inner-wrapper");
 
-  function fitui(){
-    $cover.height($win.height());
-    $coverHeadline.css("line-height", $win.height()+"px");
-    $innerWrapper.css("margin-top", $win.height()+"px");
-    $innerWrapper.css("height", $win.height()+"px");
-  }
-
-  function scrollBlur(){
-
-    var translateY = 1 - ($cover.height() / 2) * ( $win.scrollTop() / $cover.height() );
-    var blur = 10 * ( $win.scrollTop() / $cover.height() );
-
-    if($win.scrollTop() === 0 ) {
-      $coverHeadline.css( "opacity", 1 );
-      $coverHeadline.css( "filter", "blur(0px)" );
-      $coverHeadline.css( "transform", "translateY(0px)" );
-    } else if($win.scrollTop() <= $cover.height() ) {
-      $coverHeadline.css( "opacity", 0.9 - ( $win.scrollTop() / $cover.height() ) );
-      $coverHeadline.css( "filter", "blur("+ blur +"px)" );
-      $coverHeadline.css( "transform", "translateY("+ translateY +"px)" );
-    } else {
-      $coverHeadline.css( "opacity", 0 );
-      $coverHeadline.css( "filter", "blur(10px)" );
-    }
-  }
-  
   $(document).ready(function(){
     fitui();
   });
@@ -45,4 +19,28 @@
     scrollBlur();
   });
 
+  function fitui(){
+    $cover.height($win.height());
+    $coverHeadline.css("line-height", $win.height()+"px");
+    $innerWrapper.css("margin-top", $win.height()+"px");
+    $innerWrapper.css("min-height", $win.height()+"px"); // TODO: Remove once content fills screen
+  }
+
+  function scrollBlur(){
+    var scrollPos = $win.scrollTop(),
+        coverHeight = $cover.height();
+    if(scrollPos === 0 ) {
+      $coverHeadline.css( "opacity", 1 );
+      $coverHeadline.css( "filter", "blur(0px)" );
+      $coverHeadline.css( "transform", "translateY(0px)" );
+    } else if(scrollPos <= coverHeight ) {
+      $coverHeadline.css( "opacity", (0.9 - ( scrollPos / coverHeight )) );
+      $coverHeadline.css( "filter", "blur("+ (10 * ( scrollPos / coverHeight )) +"px)" );
+      $coverHeadline.css( "transform", "translateY("+ (1 - (coverHeight / 2) * ( scrollPos / coverHeight )) +"px)" );
+    } else {
+      $coverHeadline.css( "opacity", 0 );
+      $coverHeadline.css( "filter", "blur(10px)" );
+    }
+  }
+  
 })(jQuery);
