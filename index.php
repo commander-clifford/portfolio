@@ -54,6 +54,10 @@
         ?>
       </div>
 
+      <div id="contact-wrapper" class="contact-wrapper container-fluid">
+        <?php include('components/contact.php'); ?>
+      </div>
+
       <div id="footer-wrapper" class="footer-wrapper container-fluid">
         <?php include('components/footer.php'); ?>
       </div>

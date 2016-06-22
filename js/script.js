@@ -4,8 +4,10 @@
 
   var $win = $(window),
       $cover = $("#cover"),
+      $coverContainer = $("#cover-container"),
       $coverHeadline = $("#cover-headline"),
-      $innerWrapper = $("#inner-wrapper");
+      $innerWrapper = $("#inner-wrapper"),
+      $homeAvatar = $("#home-avatar");
 
   $(document).ready(function(){
     fitui();
@@ -21,25 +23,26 @@
 
   function fitui(){
     $cover.height($win.height());
-    $coverHeadline.css("line-height", $win.height()+"px");
+    $coverContainer.css("top", "calc( 50% - " + $coverContainer.height()/2 + "px)");
     $innerWrapper.css("margin-top", $win.height()+"px");
-    $innerWrapper.css("min-height", $win.height()+"px"); // TODO: Remove once content fills screen
   }
 
   function scrollBlur(){
-    var scrollPos = $win.scrollTop(),
-        coverHeight = $cover.height();
-    if(scrollPos === 0 ) {
-      $coverHeadline.css( "opacity", 1 );
-      $coverHeadline.css( "filter", "blur(0px)" );
-      $coverHeadline.css( "transform", "translateY(0px)" );
-    } else if(scrollPos <= coverHeight ) {
-      $coverHeadline.css( "opacity", (0.9 - ( scrollPos / coverHeight )) );
-      $coverHeadline.css( "filter", "blur("+ (10 * ( scrollPos / coverHeight )) +"px)" );
-      $coverHeadline.css( "transform", "translateY("+ (1 - (coverHeight / 2) * ( scrollPos / coverHeight )) +"px)" );
+    var scrollPos = $win.scrollTop();
+    var coverHeight = $cover.height();
+    if( scrollPos === 0 ){
+      $homeAvatar.removeClass("active").addClass("deactivate");
+      $coverContainer.css( "opacity", 1 );
+      $coverContainer.css( "filter", "blur(0px)" );
+      $coverContainer.css( "transform", "translateY(0px)" );
+    } else if( scrollPos <= coverHeight ){
+      $homeAvatar.removeClass("deactivate").addClass("active");
+      $coverContainer.css( "opacity", (1 - ( scrollPos / coverHeight )) );
+      $coverContainer.css( "filter", "blur("+ (10 * ( scrollPos / coverHeight )) +"px)" );
+      $coverContainer.css( "transform", "translateY("+ (1 - (.75 * ((coverHeight / 2) * (scrollPos / coverHeight))) ) +"px)" );
     } else {
-      $coverHeadline.css( "opacity", 0 );
-      $coverHeadline.css( "filter", "blur(10px)" );
+      $coverContainer.css( "opacity", 0 );
+      $coverContainer.css( "filter", "blur(10px)" );
     }
   }
   
