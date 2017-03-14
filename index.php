@@ -15,61 +15,62 @@
 </head>
 <body>
 
-  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
-    <div id="cover-wrapper" class="cover-wrapper container-fluid ">
-      <?php include('components/cover.php'); ?>
-    </div>      
-  <?php else: ?>
-    <div id="navbar" class="navbar">
-      <a href="index.php"> < home</a>
-    </div>
-    <div id="header-wrapper">
-      <header>
-        <h1>header</h1>
-      </header>  
-    </div>
-  <?php endif; ?>
+  <?php 
+    /* 
+     * logic to load page contents.
+     * URI will look like domain/index.php?page=something 
+     *
+    */
+    switch( $_GET['page'] ){
 
-  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
-    <div id="inner-wrapper" class="inner-wrapper">
-  <?php endif; ?>
+      case 'home':
+        include('pages/home.php');
+      break;
 
-      <div id="page-wrapper" class="page-wrapper container-fluid">
-        <?php 
-          //logic to load the correct page contents.
-          //URI will look like domain/index.php?page=something
-          switch( $_GET['page'] ){
+      case 'work':
+        include('pages/work.php');
+      break;
 
-            case 'home':
-            include('pages/home.php');
-            break;
+      default:
+        include('pages/home.php');
 
-            case 'about':
-            include('pages/about.php');
-            break;
+    }//end switch
+  ?>
 
-            default:
-            include('pages/home.php');
-          }//end switch
-        ?>
-      </div>
+  <div id="contact-wrapper" class="contact-wrapper container-fluid">
+    <?php include('components/contact.php'); ?>
+  </div>
 
-      <div id="contact-wrapper" class="contact-wrapper container-fluid">
-        <?php include('components/contact.php'); ?>
-      </div>
-
-      <div id="footer-wrapper" class="footer-wrapper container-fluid">
-        <?php include('components/footer.php'); ?>
-      </div>
-
-  <?php if( $_GET['page']=='home' || empty($_GET) ): ?>
-    </div><!-- /inner-wrapper -->
-  <?php endif; ?>
+  <div id="footer-wrapper" class="footer-wrapper container-fluid">
+    <?php include('components/footer.php'); ?>
+  </div>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
   <script src="js/vendor/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+
+  <?php 
+    switch( $_GET['page'] ){
+
+      case 'work':
+        ?> 
+          <script type="text/javascript" src="js/masonry.min.js"></script>
+          <script type="text/javascript">
+            $('.grid').masonry({
+              // set itemSelector so .grid-sizer is not used in layout
+              itemSelector: '.grid-item',
+              // use element for option
+              columnWidth: '.grid-sizer',
+              percentPosition: true
+            });
+          </script>
+        <?php
+      break;
+    }
+  ?>
+
+
 </body>
 </html>

@@ -118,5 +118,5 @@
 <!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
 
 <div class="fine-print text-right">
-	<a class="resume-link" href="img/clifford_nelson_resume_june2016.pdf" target="_blank">download the full resume <span class="glyphicon glyphicon-download"></span></a>
+	<a class="resume-link" href="img/clifford_nelson_resume.pdf" target="_blank">download the full resume <span class="glyphicon glyphicon-download"></span></a>
 </div>

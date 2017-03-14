@@ -1,3 +1,4 @@
+<!-- Scripts -->
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -34,8 +35,6 @@
 
       <p data-height="500" data-theme-id="light" data-slug-hash="IJcve" data-default-tab="js,result" data-user="commander-clifford" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/commander-clifford/pen/IJcve/">Simon Says</a> by Clifford Ryan Nelson (<a href="http://codepen.io/commander-clifford">@commander-clifford</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-
-
       <div class="carousel-caption">
         content
       </div>
@@ -53,3 +52,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<p>
+  <a class="pull-right" href="index.php?page=work">more projects <span class="glyphicon glyphicon-menu-right"></span></a>
+</p>
