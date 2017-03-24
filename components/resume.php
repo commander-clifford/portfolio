@@ -10,7 +10,7 @@
 
 	<h2 class="resume_sub-headline">Education</h2>
 
-	<p class="resume_title"><span class="title">Platt College San Diego</span> — BS Media Arts - 2014</p>
+	<p class="resume_title"><span class="title">Platt College San Diego</span> — Bachelors&nbsp;of&nbsp;Science&nbsp;in&nbsp;Media&nbsp;Arts - 2014</p>
 	<ul class="un-list">
 		<li><span class="list-title">GPA:</span> 4.0, Class Valedictorian</li>
 		<li><span class="list-title">Relevant Coursework:</span> Fundamentals of Web Design, Web Campaign Implementation, Design for Usability, Responsive Web Design, Programming for Designers, Scripting for the Web, Content Management Systems</li>
@@ -62,15 +62,15 @@
 
 	<!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
 
-	<h2 class="resume_sub-headline">Work History</h2>
+	<h2 class="resume_sub-headline">Experience</h2>
 
 	<ul class="un-list">
 		<li>
-			<span class="title">SOFTWARE ENGINEER</span> Intuit TurboTax <span class="text-right"></span>
+			<span class="title">Software&nbsp;Engineer &amp; Experience&nbsp;Design&nbsp;Prototyper</span> Intuit&nbsp;TurboTax <span class="text-right"></span>
 			<ul>
-				<li>2015-Present, contracted with Integrated Associates</li>
-				<li>Work closely with design team to develop user experiences</li>
-				<li>UI/UX design for in-house developer tools</li>
+				<li>2015-2017, on contract through Integrated Associates</li>
+				<li>Explore new product concepts through delivery of innovative, engaging prototypes using the latest in front-end technologies</li>
+				<li>Advise, collaborate with, and synthesize feedback from designers and researchers</li>
 			</ul>
 		</li>
 		<li><a class="resume_link" href="img/clifford_nelson_resume_june2016.pdf" target="_blank">...download for more</a></li>
@@ -117,6 +117,6 @@
 
 <!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
 
-<div class="fine-print text-right">
-	<a class="resume-link" href="img/clifford_nelson_resume.pdf" target="_blank">download the full resume <span class="glyphicon glyphicon-download"></span></a>
+<div class="resume_footer text-right">
+	<a class="resume_footer-link" href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: March 2017">see the full downloadable resume <span class="glyphicon glyphicon-download"></span></a>
 </div>

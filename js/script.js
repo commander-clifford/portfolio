@@ -21,6 +21,10 @@
 		scrollBlur();
 	});
 
+	$(function(){
+		$('[data-toggle="tooltip"]').tooltip()
+	});
+
 	function fitui(){
 		$cover.height($win.height());
 		$coverContainer.css("top", "calc( 50% - " + $coverContainer.height()/2 + "px)");

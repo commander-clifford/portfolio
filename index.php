@@ -15,10 +15,10 @@
 </head>
 <body>
 
-  <?php 
-    /* 
+  <?php
+    /*
      * logic to load page contents.
-     * URI will look like domain/index.php?page=something 
+     * URI will look like domain/index.php?page=something
      *
     */
     switch( $_GET['page'] ){
@@ -27,9 +27,13 @@
         include('pages/home.php');
       break;
 
-      case 'work':
-        include('pages/work.php');
-      break;
+		case 'work':
+			include('pages/work.php');
+		break;
+
+		case 'about':
+			include('pages/about.php');
+		break;
 
       default:
         include('pages/home.php');
@@ -51,25 +55,27 @@
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
 
-  <?php 
-    switch( $_GET['page'] ){
+<?php
+	switch( $_GET['page'] ){
 
-      case 'work':
-        ?> 
-          <script type="text/javascript" src="js/masonry.min.js"></script>
-          <script type="text/javascript">
-            $('.grid').masonry({
-              // set itemSelector so .grid-sizer is not used in layout
-              itemSelector: '.grid-item',
-              // use element for option
-              columnWidth: '.grid-sizer',
-              percentPosition: true
-            });
-          </script>
-        <?php
-      break;
-    }
-  ?>
+		case 'work':
+		?>
+
+		<!-- <script type="text/javascript" src="js/masonry.min.js"></script>
+		<script type="text/javascript">
+		$('.grid').masonry({
+			// set itemSelector so .grid-sizer is not used in layout
+			itemSelector: '.grid-item',
+			// use element for option
+			columnWidth: '.grid-sizer',
+			percentPosition: true
+		});
+		</script> -->
+
+		<?php
+		break;
+	}
+?>
 
 
 </body>

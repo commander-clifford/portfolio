@@ -37,12 +37,13 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 				    <div id="home-nav" class="home-nav collapse navbar-collapse">
 				    	<ul class="nav navbar-nav navbar-left">
+				    		<li><a href="index.php?page=about">About me</a></li>
 				    		<li><a href="index.php?page=work">Porfolio</a></li>
 				    		<li><a href="http://www.codepen.io/commander-clifford/" target="_blank"><span class="cliphicon-codeopen"></span>Codepen.io</a></li>
 				    	</ul>
 				      	<ul class="nav navbar-nav navbar-right navbar-secondary">
-				        	<li><a href="mailto:cliffordryannelson@gmail.com" target="_top">Mail me</a></li>
-				        	<li><a href="img/clifford_nelson_resume.pdf" target="_blank">Download my resume</a></li>
+				        	<li><a href="mailto:cliffordryannelson@gmail.com" target="_top">eMail me</a></li>
+				        	<li><a href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: March 2017">See current resume</a></li>
 					    </ul>
 				    </div><!-- /.navbar-collapse -->
 				<!-- </div>/.container-fluid -->
@@ -60,7 +61,7 @@
 					<div id="aboutme">
 						<p>
 							I've been working with digital media for over <span class="bold">10 years</span>, and I love learning new things everyday.
-							My enthusiasm for technology is the human factor, the user interface is the keystone to any good solution.
+							My enthusiasm for technology is the human factor, the interface and the users experience are the keystones to any well executed solution.
 							With a background in design and engineering, I think with an artistic and scientific mindset - bringing a unique perspective to the table.
 						</p>
 						<p>
@@ -97,7 +98,7 @@
 					<div id="projects">
 
 						<h2 class="heading-typ-1">Projects</h2>
-						<p class="text-center">Check out these <a href="http://codepen.io/commander-clifford/" target="_blank">codepen.io&nbsp;projects</a> or check out my <a href="index.php?page=work">favorite&nbsp;projects.</a></p>
+						<p class="text-center">Check out these <a href="http://codepen.io/commander-clifford/" target="_blank">codepen.io&nbsp;projects</a> or check out my <a href="index.php?page=work">portfolio.</a></p>
 
 						<?php include 'components/projects-carousel.php'; ?>
 

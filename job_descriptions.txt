@@ -1,0 +1,84 @@
+UX Prototyper-00123779
+
+Description
+
+	• Experience Design (XD) Prototypers are the synthesis of design and development. We take TurboTax's most innovative product concepts and bring them to life in an effort to push the boundaries of user interface design. The TurboTax experience is created through highly innovative design concepts, with a foundation of complex technical layers. In the XD Prototyper job, you'll need the skills to develop the next generation of products, balancing both design and technical, and bring life to designs through motion. You'll partner with researchers, product managers and designers to define and deliver new features, test new concepts and assist with final implementation. Details are critical as you iterate on complex interactions, animations and pixel-perfect visual designs.
+	• You have a passion for design and innovation with the customer at the center of everything you do. You understand how to communicate concepts by rapidly prototyping delightful and emotionally engaging experiences. You work independently on many projects, but also incorporate feedback from team members across the organization. The impact of your work is huge as TurboTax is used by tens of millions of users each year.
+
+Responsibilities
+
+	• Explore new product concepts through delivery of  innovative, engaging prototypes using the latest in front-end technologies
+	• Engage with customers and learn quickly through iterative prototyping
+	• Advise, collaborate with, and synthesize feedback from designers and researchers
+	• Fulfill several project requests simultaneously while meeting tight deadlines
+	• Work with front-end engineers to ensure delivery of intended design
+
+
+Qualifications
+
+
+	• BS degree in Design, Computer Science, Human-Computer Interaction or similar degree or equivalent practical technical and/or design experience
+	• Strong visual design skills and experience using Sketch, InVision, Illustrator, and other UI design and prototyping tools
+	• Passion for user experience and design
+	• 1 to 3 years of experience developing clean, valid, and responsive websites and applications
+	• HTML5, CSS3, and JavaScript development experience
+
+
+
+Preferred qualifications
+
+	• Experience using frameworks and libraries such as BootStrap, Zurb, AngularJS, jQuery, etc
+	• Experience developing animations and transitions using CSS3, JavaScript, or other programming languages or libraries like GSAP, Velocity, Flash/Flex
+	• Experience developing native applications for iOS or Android (Swift, Objective-C, ReactNative, Java, etc)
+	• Experience with development on mobile platforms.
+
+Imagine a career where your creative inspiration can fuel BIG innovation.  Year-over-year, Intuit has been recognized as a best employer and is consistently ranked on Fortune’s “100 Best Companies To Work For” and Fortune World’s “Most Admired Software Companies” lists. Immerse yourself in our award winning culture while creating breakthrough solutions that simplify the lives of consumers and small businesses and their customers worldwide.
+Intuit is expanding its social, mobile, and global footprint with a full suite of products and services that are revolutionizing the industry.  Utilizing design for delight and lean startup methodologies, our entrepreneurial employees have brought more than 250 innovations to market – from QuickBooks® and TurboTax®, to GoPayment, Mint.com, big data, cloud (SaaS, PaaS) and mobile apps.  The breadth and depth of these customer-driven innovations mean limitless opportunities for you to turn your ingenious ideas into reality at Intuit.
+Discover what it’s like to be part of a team that rewards taking risks and trying new things. It’s time to love what you do! Check out all of our career opportunities at: careers.intuit.com.  EOE AA M/F/Vet/Disability
+
+Job Interaction Design
+Primary Location United States of America-California-San Diego
+Schedule Full-Time
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+Front-end, Software Engineer 2-00126504
+
+Description
+
+	Come join the QuickBooks Online In Product Discovery Team as a Software Engineer 2.  You will help our customers discover tools and features that they love and could not run their business without by using modern UI technology and machine learning. QBO is a responsive Single Page Application that uses the latest in JavaScript, CSS, and HTML technologies. If you love having big goals, real world challenges, and making customers incredibly happy whilst fostering your obsessive need for perfect code and user experience, this is the job for you. Along with coding, you will be responsible for working with product managers, backend developers and designers on our agile team structure. We love product engineers who lead the charge, communicating with customers and delivering the most beautiful, intuitive application possible is a must.
+
+Responsibilities:
+
+	• Successful delivery of high quality web software (requirements, design, code, documentation, etc.)
+	• Roughly 80-95% hands-on coding
+	• Contribute to early quality activities, including peer reviews of estimates, designs and code
+	• Resolve defects/bugs during QA testing, pre-production, production, and post-release patches
+	• Partner effectively with all team members to deliver against commitments
+	• Work cross-functionally with various Intuit teams: product management, QA/QE, various product lines, or business units to drive forward results
+	• Commitment to team success and positive team dynamics
+	• Passion for growing and applying technical skills in service to customers
+	• Experience with Agile Development, SCRUM, and/or Extreme Programming methodologies
+
+Qualifications
+
+	• 2+ years of professional or open-source experience writing JavaScript (not just jQuery)
+	• 1+ years of professional or open-source experience with a JavaScript MVC toolkit in a Single Page Architecture.  Most notably React framework but may also including AngularJS, Dojo, Backbone.js, Knockout or Ember.js.
+	• 1+ years of experience with CSS framework such as LESS, Sass, etc.
+	• Similar experience in a modern consumer environment (Pinterest, Box, Quora, Facebook, etc) and/or open source projects (contributed to node.js, dojo toolkit, NPM modules, etc)
+	• Familiarity with standard javascript async patterns (closures, callbacks, promises, error handling, etc.)
+	• Moderate CS fundamentals and an object oriented language (think an undergrad CS degree, or similar amount of work experience)
+	• Never ending desire to self-educate on the latest list of web technologies like HTML, CSS, javascript frameworks and bleeding edge browser features/idiosyncrasies
+	• An understanding of unit testing & Test Driven Development (TDD)
+	• "Self-starter"" attitude and ability to make decisions independently
+	• Helpful, can-do attitude and a willingness to take ownership of problems
+	• Strong desire to learn and grow
+	• Excellent problem solving skills with a history of superb delivery against assigned tasks
+	• Excellent verbal and written communication skills
+	• Outstanding partnership skills
+
+Job Software Engineering
+Primary Location United States of America-California-Mountain View
+Schedule Full-Time
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
