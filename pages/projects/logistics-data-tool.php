@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Logistics Data Tool</h1>
 	<p class="work-header-subheadline">a prototype built from project requirments</p>
@@ -17,5 +15,3 @@
 		<p>This is a prototype built for a logistics widget</p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->

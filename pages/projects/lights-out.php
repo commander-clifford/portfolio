@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Lights Out</h1>
 	<p class="work-header-subheadline">My first recreation of a classic electronic game, "Lights Out", programmed and style with web technologies.</p>
@@ -20,5 +18,3 @@
 		</p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->

@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Style Tile</h1>
 	<p class="work-header-subheadline">Style Tile is a website for a mock construction company.</p>
@@ -17,5 +15,3 @@
 		<p></p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->

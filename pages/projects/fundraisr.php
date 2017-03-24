@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Fundraisr</h1>
 	<p class="work-header-subheadline">an all encompassing project</p>
@@ -22,5 +20,3 @@
 		</p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->

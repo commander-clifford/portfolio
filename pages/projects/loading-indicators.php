@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Loading Indicators (CSS Only)</h1>
 	<p class="work-header-subheadline">This CSS exercise is an experiment into what can be done, simply with CSS animations. Notice there is no added javaScript making these indicators very light weight.</p>
@@ -18,5 +16,3 @@
 		<p>Stretching Circles</p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->

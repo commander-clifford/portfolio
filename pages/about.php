@@ -1,3 +1,3 @@
 <div id="about" class="about container">
-	about
+	about page
 </div>

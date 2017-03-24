@@ -1,5 +1,3 @@
-<!-- +++++++++++++++++++++++ -->
-
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Navullia</h1>
 	<p class="work-header-subheadline">just a front door exercise</p>
@@ -17,5 +15,3 @@
 		<p>Navullia is a pet project of mine for web experiments and new ideas.</p>
 	</div>
 </div>
-
-<!-- ++++++++++++++++++++++ -->
