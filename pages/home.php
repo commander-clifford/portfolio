@@ -73,15 +73,5 @@
 			</div>
 		</div>
 
-		<div class="projects container">
-			<div class="row panel">
-				<div class="col-xs-12">
-					<div id="contact-wrapper" class="contact-wrapper container-fluid">
-					  <?php include('components/contact.php'); ?>
-					</div>
-				</div>
-			</div>
-		</div>
-
 	</div>
 </div>

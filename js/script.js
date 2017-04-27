@@ -57,6 +57,7 @@
 			$("#deck_plate").removeClass("active");
 			$("#slider_nav").removeClass("active");
 			$("#cover-wrapper").removeClass("active");
+			$("#bilge").removeClass("active");
 
 		} else {
 
@@ -64,6 +65,7 @@
 			$("#deck_plate").addClass("active");
 			$("#slider_nav").addClass("active");
 			$("#cover-wrapper").addClass("active");
+			$("#bilge").addClass("active");
 
 		}
 	});

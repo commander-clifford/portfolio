@@ -34,16 +34,6 @@
 			</div>
 		</div>
 
-		<div class="row panel">
-			<div class="col-xs-12">
-				<div id="contact-wrapper" class="contact-wrapper">
-					<?php include('components/contact.php'); ?>
-				</div>
-			</div>
-		</div>
-
 	</main>
-
-
 
 </div>
