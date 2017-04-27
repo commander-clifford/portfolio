@@ -1,227 +1,154 @@
 <header class="work-header">
-	<h1 class="work-header-headline heading-typ-1">This is what I do</h1>
-	<p class="work-header-subheadline">...well not everything, just a few of my favorite things ;)	</p>
+	<h1 class="work-header-headline heading-typ-1">Work Examples</h1>
+	<!-- <p class="work-header-subheadline">...well not everything, just a few of my favorite things ;)	</p> -->
 </header>
 
 <div class="row work-content">
 
-	<div class="col-xs-12">
+		<div class="work cards">
 
-		<div class="grid">
-			<div class="grid-sizer"></div>
+		<!-- loop -->
 
-			<!-- Project: Fundraiser -->
-			<div class="grid-item grid-item--width2">
-				<a href="<?=$index?>&project=fundraisr">
-				<img class="img-responsive" src="img/fundraiser-rwd1.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Fundraiser</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Marketing</li>
-							<li>Design</li>
-						</ul>
-					</div>
+		<!-- Project: Fundraiser -->
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=fundraisr">
+				<img class="img-responsive" src="img/hero.fundraisr.png">
+				<div class="content">
+					<h2 class="title">Fundraisr</h2>
+					<p class="description">Fundraising for a new generation</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Starboard -->
-			<div class="grid-item grid-item--width2">
-				<a href="<?=$index?>&project=starboard">
-				<img class="img-responsive" src="img/starboard.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Starboard</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Information Architecture</li>
-							<li>Design</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=starboard">
+				<img class="img-responsive" src="img/hero.starboard.png">
+				<div class="content">
+					<h2 class="title">Starboard</h2>
+					<p class="description">Task tracking<br>a marriage of JIRA and GitHub</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Navullia -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=navullia">
-				<img class="img-responsive" src="img/navullia.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Navullia</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Marketing</li>
-							<li>Design</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=navullia">
+				<img class="img-responsive" src="img/hero.navullia.png">
+				<div class="content">
+					<h2 class="title">Navullia</h2>
+					<p class="description">Just a fun template</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Logistics Data Tool -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=logistics-data-tool">
-				<img class="img-responsive" src="img/logistics-widget.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Logistics Data Tool</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Prototype</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-							<li>Information Architecture</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=logistics-data-tool">
+				<img class="img-responsive" src="img/hero.logistics_widget.png">
+				<div class="content">
+					<h2 class="title">Logistics Data Tool</h2>
+					<p class="description">Wireframe of a logistics widget</p>
 				</div>
 				</a>
 			</div>
-			
+
 			<!-- Project: Logistics Portal -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=logistics-portal">
-				<img class="img-responsive" src="img/logistics-portal.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Logistics Portal</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Prototype</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-							<li>Information Architecture</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=logistics-portal">
+				<img class="img-responsive" src="img/hero.logistics_portal.png">
+				<div class="content">
+					<h2 class="title">Logistics Portal</h2>
+					<p class="description">One web page, 4 app choices</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: MOR Furniture -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=mor-furniture">
-				<img class="img-responsive" src="img/mor-logo.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">MOR Furniture</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Design</li>
-							<li>Information Architecture</li>
-							<li>Forms</li>
-							<li>Intranet</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=mor-furniture">
+				<img class="img-responsive" src="img/hero.mor_logo.png">
+				<div class="content">
+					<h2 class="title">MOR Furniture</h2>
+					<p class="description">Intranet solutions</p>
 				</div>
 				</a>
 			</div>
-			
+
 			<!-- Project: Loading Indicators -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=loading-indicators">
-				<img class="img-responsive" src="img/loading-indicators.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Loading Indicators</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>CSS3</li>
-							<li>Animation</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=loading-indicators">
+				<img class="img-responsive" src="img/hero.loading_indicators.png">
+				<div class="content">
+					<h2 class="title">Loading Indicators</h2>
+					<p class="description">Pure CSS3 indicators</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Lights Out -->
-			<div class="grid-item grid-item--width2">
-				<a href="<?=$index?>&project=lights-out">
-				<img class="img-responsive" src="img/lightsout.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Lights Out</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Game</li>
-							<li>Prototype</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=lights-out">
+				<img class="img-responsive" src="img/hero.lightsout.png">
+				<div class="content">
+					<h2 class="title">Lights Out</h2>
+					<p class="description">Hi-fidelity electronic game recreation</p>
 				</div>
 				</a>
 			</div>
-			
+
 			<!-- Project: Morphing Menus -->
-			<div class="grid-item grid-item--width">
-				<a href="<?=$index?>&project=morphing-menus">
-				<img class="img-responsive" src="img/menu.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Morphing Menus</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>CSS3</li>
-							<li>SMIL</li>
-							<li>Animation</li>
-							<li>JavaScript</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=morphing-menus">
+				<img class="img-responsive" src="img/hero.menu.png">
+				<div class="content">
+					<h2 class="title">Morphing Menus</h2>
+					<p class="description">Micro animations</p>
 				</div>
 				</a>
 			</div>
-			
+
 			<!-- Project: Style Tile -->
-			<div class="grid-item grid-item--width2">
-				<a href="<?=$index?>&project=style-tile">
-				<img class="img-responsive" src="img/styletile.jpg">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Style Tile</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Marketing</li>
-							<li>Design</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=style-tile">
+				<img class="img-responsive" src="img/hero.styletile.png">
+				<div class="content">
+					<h2 class="title">Style Tile</h2>
+					<p class="description">Website theme</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Simon -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=simon">
-				<img class="img-responsive" src="img/simonsays.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Simon</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>Game</li>
-							<li>Prototype</li>
-							<li>CSS3</li>
-							<li>JavaScript</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=simon">
+				<img class="img-responsive" src="img/hero.simonsays.png">
+				<div class="content">
+					<h2 class="title">Simon</h2>
+					<p class="description">Electronic game recreation</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Donation Forms -->
-			<div class="grid-item">
-				<a href="<?=$index?>&project=donation-form">
-				<img class="img-responsive" src="img/rwd-donationform.png">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Donation Forms</h2>
-					<div class="grid-item-tags">
-						<ul>
-							<li>RWD</li>
-							<li>Marketing</li>
-						</ul>
-					</div>
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=donation-form">
+				<img class="img-responsive" src="img/hero.donationforms.png">
+				<div class="content">
+					<h2 class="title">Donation Forms</h2>
+					<p class="description">Responsive web "re-design"</p>
 				</div>
 				</a>
 			</div>
 
 			<!-- Project: Painting -->
-			<div class="grid-item">
-				<!-- <a href="<?=$index?>&project=simon"> -->
+			<!-- <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=simon">
 				<a href="img/money-bg-blue.jpg">
-				<img class="img-responsive" src="img/money-bg-blue.jpg">				
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Painting</h2>
-					<div class="grid-item-tags">
+				<img class="img-responsive" src="img/money-bg-blue.jpg">
+				<div class="content">
+					<h2 class="title">Painting</h2>
+					<div class="-tags hidden">
 						<ul>
 							<li>art</li>
 							<li>design</li>
@@ -230,16 +157,16 @@
 					</div>
 				</div>
 				</a>
-			</div>
+			</div> -->
 
 			<!-- Project: Painting -->
-			<div class="grid-item">
-				<!-- <a href="<?=$index?>&project=Painting"> -->
+			<!-- <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=Painting">
 				<a href="img/money-bg-red.jpg">
 				<img class="img-responsive" src="img/money-bg-red.jpg">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Painting</h2>
-					<div class="grid-item-tags">
+				<div class="content">
+					<h2 class="title">Painting</h2>
+					<div class="-tags hidden">
 						<ul>
 							<li>art</li>
 							<li>design</li>
@@ -248,16 +175,16 @@
 					</div>
 				</div>
 				</a>
-			</div>
+			</div> -->
 
 			<!-- Project: Painting -->
-			<div class="grid-item">
-				<!-- <a href="<?=$index?>&project=Painting"> -->
+			<!-- <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=Painting">
 				<a href="img/money-bg-blue_2.jpg">
 				<img class="img-responsive" src="img/money-bg-blue_2.jpg">
-				<div class="grid-item-content">
-					<h2 class="grid-item-title">Painting</h2>
-					<div class="grid-item-tags">
+				<div class="content">
+					<h2 class="title">Painting</h2>
+					<div class="-tags hidden">
 						<ul>
 							<li>art</li>
 							<li>design</li>
@@ -266,8 +193,8 @@
 					</div>
 				</div>
 				</a>
-			</div>
+			</div> -->
 
 		</div>
-	</div>
+	<!-- </div> -->
 </div>
