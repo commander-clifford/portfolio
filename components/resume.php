@@ -118,5 +118,5 @@
 <!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
 
 <div class="resume_footer text-right">
-	<a class="resume_footer-link" href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: March 2017">see the full downloadable resume <span class="glyphicon glyphicon-download"></span></a>
+	<a class="resume_footer-link" href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: April 2017">see the full downloadable resume <span class="glyphicon glyphicon-download"></span></a>
 </div>

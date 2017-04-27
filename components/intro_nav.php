@@ -19,7 +19,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right navbar-secondary">
 				<li><a href="mailto:cliffordryannelson@gmail.com" target="_top">eMail me</a></li>
-				<li><a href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: March 2017">See current resume</a></li>
+				<li><a href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: April 2017">See current resume</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	<!-- </div>/.container-fluid -->
