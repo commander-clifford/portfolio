@@ -20,14 +20,22 @@ body {
 		-1px 1px 1px rgba(0,0,0,0.29);
 	&:hover {
 		text-decoration: none;
-		& > .dbtn {
+		color: @brand-primary;
+	}
+	& > .dbtn {
+		padding: 15px;
+		border-radius: 50%;
+		display: block;
+		height: 70px;
+		width: 70px;
+		color: @brand-primary;
+		&:hover {
 			background-color: fade(@brand-primary, 10%);
 			color: @brand-primary;
 		}
-	}
-	& > .dbtn {
-		padding: 0.25em 0.5em;
-		border-radius: 8px;
+		.glyphicon {
+			font-size: 2em;
+		}
 	}
 
 

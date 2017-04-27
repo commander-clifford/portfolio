@@ -31,7 +31,7 @@
 
 	<div id="deck_plate" class="deck_plate">
 
-		<a id="deck_plate-toggle" class="deck_plate-toggle"><span class="dbtn">menu</span></a>
+		<a id="deck_plate-toggle" class="deck_plate-toggle"><span class="dbtn"><span class="glyphicon glyphicon-menu-hamburger"></span></span></a>
 
 		<?php
 		/*
