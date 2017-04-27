@@ -1,9 +1,9 @@
-<div id="contact" class="contact container">
-	
+<div id="contact" class="contact">
+
 	<h1 class="heading-typ-1">Let's Connect</h1>
-	
+
 	<div class="social-wrapper">
-		
+
 		<a class="social-item" href="https://www.linkedin.com/in/clifford-nelson-bba47459" target="_blank">
 			<span class="icon cliphicon-linkedin"></span>
 			<span class="sr-only">LinkedIn</span>

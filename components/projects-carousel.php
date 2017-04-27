@@ -12,9 +12,9 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      
+
       <p data-height="400" data-theme-id="dark" data-slug-hash="vmDEh" data-default-tab="css,result" data-user="commander-clifford" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/commander-clifford/pen/vmDEh/">Tablets in Space</a> by Clifford Ryan Nelson (<a href="http://codepen.io/commander-clifford">@commander-clifford</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      
+
 
       <div class="carousel-caption">
         Tablets in Space - an exercise with CSS3 3D transforms, this pen was on the cover of CodePen when it was brand new.
@@ -39,7 +39,7 @@
         content
       </div>
     </div>
-    
+
   </div>
 
   <!-- Controls -->
@@ -54,5 +54,5 @@
 </div>
 
 <p>
-  <a class="pull-right" href="index.php?page=work">more projects <span class="glyphicon glyphicon-menu-right"></span></a>
+  <a class="pull-right" href="index.php?page=work">more on Codepen.io <span class="glyphicon glyphicon-menu-right"></span></a>
 </p>

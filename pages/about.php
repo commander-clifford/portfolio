@@ -4,25 +4,24 @@
 
 ?>
 
-<div id="about" class="sub-page about-page container">
+<div id="about" class="sub-page about-page container-fluid">
 
 	<?php include('components/sub_page_nav.php'); ?>
 
 	<main id="about-page__main" class="about-page__main layer-margin container">
-		<div class="row">
+		<div class="row panel">
 			<div class="col-xs-12">
-				<p>Clifford Ryan Nelson</p>
-
-				<p>About me ...</p>
+				<h2 class="heading-typ-1 wp">About me</h2>
 				<p>Here's a few bullet points about me:</p>
-				<ul>
-					<li class="li">Experience writing JavaScript (not just jQuery)</li>
-					<li class="li">Experience developing animations and transitions using CSS3, JavaScript, or other programming languages or libraries like GSAP, Velocity</li>
-					<li class="li">Experience using frameworks and libraries such as BootStrap, Zurb, AngularJS, jQuery, etc</li>
+				<ul class="big-list">
+					<li class="li">Experience with HTML5/CSS3/JS</li>
 					<li class="li">Experience with CSS frameworks such as LESS, Sass, etc.</li>
+					<li class="li">Experience writing JavaScript (not just jQuery)</li>
+					<li class="li">Experience developing animations and transitions using CSS3, JavaScript, including libraries like GSAP, Velocity</li>
+					<li class="li">Experience using frameworks and libraries such as BootStrap, Zurb, Angular1&amp;2, React, jQuery, etc</li>
 					<li class="li">Experience in a modern consumer environment (Pinterest, Box, Quora, Facebook, etc)</li>
 					<li class="li">Familiarity with standard javascript async patterns (closures, callbacks, promises, error handling, etc.)</li>
-					<li class="li">Moderate CS fundamentals and an object oriented language</li>
+					<li class="li">Moderate computer science fundamentals and object oriented language</li>
 					<li class="li">Never ending desire to self-educate on the latest list of web technologies like HTML, CSS, javascript frameworks and bleeding edge browser features/idiosyncrasies</li>
 					<li class="li">An understanding of unit testing &amp; Test Driven Development</li>
 					<li class="li">"Self-starter" attitude and ability to make decisions independently</li>
@@ -34,6 +33,17 @@
 				</ul>
 			</div>
 		</div>
+
+		<div class="row panel">
+			<div class="col-xs-12">
+				<div id="contact-wrapper" class="contact-wrapper">
+					<?php include('components/contact.php'); ?>
+				</div>
+			</div>
+		</div>
+
 	</main>
+
+
 
 </div>

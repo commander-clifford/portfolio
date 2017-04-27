@@ -20,45 +20,58 @@
 </head>
 <body>
 
-  <?php
-    /*
-     * logic to load page contents.
-     * URI will look like domain/index.php?page=something
-     *
-    */
-    switch( $_GET['page'] ){
+	<div id="bilge" class="bilge">
+		<nav>
+			<a href="index.php">Home</a>
+			<a href="index.php?page=about">About</a>
+			<a href="index.php?page=work">Work</a>
+			<a href="img/clifford_nelson_resume.pdf" target="_blank">Resume</a>
+		</nav>
+	</div>
 
-      case 'home':
-        include('pages/home.php');
-      break;
+	<div id="deck_plate" class="deck_plate">
 
-		case 'work':
+		<a id="deck_plate-toggle" class="deck_plate-toggle"><span class="dbtn">menu</span></a>
+
+		<?php
+		/*
+		* logic to load page contents.
+		* URI will look like domain/index.php?page=something
+		*
+		*/
+		switch( $_GET['page'] ){
+
+			case 'home':
+			include('pages/home.php');
+			break;
+
+			case 'work':
 			include('pages/work.php');
-		break;
+			break;
 
-		case 'about':
+			case 'about':
 			include('pages/about.php');
-		break;
+			break;
 
-      default:
-        include('pages/home.php');
+			default:
+			include('pages/home.php');
 
-    }//end switch
-  ?>
+		}//end switch
+		?>
 
-  <div id="contact-wrapper" class="contact-wrapper container-fluid">
-    <?php include('components/contact.php'); ?>
-  </div>
+		<div id="footer-wrapper" class="footer-wrapper container-fluid">
+			<?php include('components/footer.php'); ?>
+		</div>
 
-  <div id="footer-wrapper" class="footer-wrapper container-fluid">
-    <?php include('components/footer.php'); ?>
-  </div>
+	</div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
 
 <?php
 	switch( $_GET['page'] ){

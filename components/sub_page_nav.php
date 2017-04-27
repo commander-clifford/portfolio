@@ -9,7 +9,7 @@
 </header>
 
 <nav id="sub-page__nav" class="sub-page__nav navbar navbar-default container layer-margin">
-	<div class="container-fluid">
+	<div class="container-fluid" style="display:none;">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#work-nav" aria-expanded="false">
@@ -25,7 +25,7 @@
 			<ul class="nav navbar-nav navbar-right">
 
 				<?php if($project != "work-home"): ?>
-				<li><a class="secondary-link" href="<?=$index?>">back</a></li>
+				<!-- <li><a class="secondary-link" href="<?=$index?>">back</a></li> -->
 				<?php endif; ?>
 
 				<!-- <li class="dropdown">

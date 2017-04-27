@@ -1,22 +1,97 @@
+body {
+	position: relative;
+	background-color: #F5F5F5;
+	background-color: @light-grey;
+
+}
+
+.deck_plate-toggle {
+	text-decoration: none;
+	cursor: pointer;
+	color: @brand-primary;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	right: 0;
+	font-size: 2em;
+	padding: 2em 4em;
+	text-shadow: -1px 1px 2px rgba(0,0,0,0.25),
+		-1px 1px 1px rgba(0,0,0,0.29);
+	&:hover {
+		text-decoration: none;
+		& > .dbtn {
+			background-color: fade(@brand-primary, 10%);
+			color: @brand-primary;
+		}
+	}
+	& > .dbtn {
+		padding: 0.25em 0.5em;
+		border-radius: 8px;
+	}
 
 
+}
+.bilge {
+	transition: right 0.25s ease;
+	position: fixed;
+	// z-index: -2;
+	top: 0;
+	bottom: 0;
+	width: 320px;
+	right: -320px;
+	right: 0;
+	background-color: @light-grey;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25) inset,
+				0 0 180px 0px rgba(0,0,0,0.25) inset;
+	text-align: center;
+	&.active {
+		right: 0;
+	}
+	& nav {
+		margin-top: 30vh;
+		& a {
+			display: block;
+			font-size: 3em;
+			line-height: 2;
+		}
+	}
+}
+.deck_plate {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	position: relative;
+	right: 0;
+	transition: right 0.25s ease;
+	&.active {
+		right: 320px;
+	}
+}
 
+.panel {
+	.panel();
+}
 
 
 //
-// 
+//
 // --------------------------------------------------
 .cover-wrapper {
 	position: fixed;
-	z-index: -1;
+	z-index: 0;
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%; 
+	width: 100%;
 	padding: 0;
+	transition: left .25ms ease;
+	&.active {
+		left: -320px;
+		right: auto;
+	}
 }
 
 .cover {
+	background-color: @brand-primary;
 	#gradient .radial( lighten(@brand-primary, 10%), @brand-primary );
 	color: @brand-primary-accent;
 	text-align: center;
@@ -53,11 +128,14 @@
 }
 
 
-.home {
-	margin-top: 50px;
+.intro {
+	position: relative;
+	margin-top: 100px;
+	padding-top: 80px;
 	&-avatar {
 		.circle();
 		background-color: @brand-primary-accent;
+		box-shadow: 0 2px 3px rgba(0,0,0,.2);
 		width: 30px;
 		margin: 0 auto;
 		width: 160px;
@@ -70,7 +148,7 @@
 		// box-shadow: 0 -10px 40px -20px fade(@black, 50%);
 
 		transition: all 2000ms ease ;
-		transform: scale(0);
+		// transform: scale(0);
 		&.active {
 			animation: spinIn 2000ms 500ms cubic-bezier(1,0,.4,1.5) forwards alternate;
 		}
@@ -79,6 +157,12 @@
 		}
 		img {
 			.circle();
+		}
+	}
+	&-header {
+		margin-bottom: 40px;
+		h1 {
+			// padding-bottom: @rule-size*3;
 		}
 	}
 }
@@ -91,21 +175,25 @@
     100% { transform: scale(0) rotateX(0); }
 }
 
+.project-panel {
+	& > a {
+		display: block;
+		
+	}
+}
 
-
-
-
-.inner-wrapper {
+.under_cover-wrapper {
 	position: relative;
-	background-color: @brand-primary-accent;
+	// background-color: @brand-primary-accent;
+
 }
 .page-wrapper {
 	padding-top: 2em;
 	padding-bottom: 2em;
+	background-color: @light-grey;
 }
 
 .contact-wrapper {
-	background-color: @brand-primary-accent;
 	color: @black;
 	padding: 1em 0;
 }
@@ -185,6 +273,7 @@
 	font-size: 1.25em;
 	&-wrapper {
 		background-color: @brand-primary;
+		position: relative;
 	}
 
 	&-top {
@@ -213,7 +302,7 @@
 		margin: 0;
 		padding: 0;
 	}
-	
+
 }
 
 
@@ -238,12 +327,14 @@
 	& > a {
 		display: block;
 		text-decoration: none;
-		border-color: #990007;
-		border-radius: 0.5em;
-		border: @rule-size solid;
+		// border-color: #990007;
+		// border-radius: 0.5em;
+		// border: @rule-size solid;
 		width: 100%;
-		height: 100%;
+		// height: 100%;
 		overflow: hidden;
+		background-color: rgba(153,0,7,0.05);
+		min-height: 420px;
 	}
 
 	&-content {
@@ -273,7 +364,7 @@
 				list-style-type: none;
 				padding: 0 4px;
 			}
-			
+
 		}
 
 	}
@@ -283,18 +374,18 @@
 // .grid-item
 .grid-sizer, .grid-item { width: 100%; }
 .grid-item--width2 { width:  100%; }
-.grid-item--width3 { width:  100%; }	
+.grid-item--width3 { width:  100%; }
 
 @media screen and (min-width: @screen-sm-min) {
 	.grid-sizer, .grid-item { width: 50%; }
 	.grid-item--width2 { width:  50%; }
-	.grid-item--width3 { width:  50%; }	
+	.grid-item--width3 { width:  50%; }
 }
 
 @media screen and (min-width: @screen-md-min) {
 	.grid-sizer, .grid-item { width: 20%; }
 	.grid-item--width2 { width:  40%; }
-	.grid-item--width3 { width:  60%; }	
+	.grid-item--width3 { width:  60%; }
 }
 
 // .grid-item--height2 { height: 200px; }
@@ -345,11 +436,3 @@ iframe {
     	padding: .5em 0;
     }
 }
-
-
-
-
-
-
-
-
