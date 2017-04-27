@@ -25,7 +25,7 @@
 			<a href="index.php">Home</a>
 			<a href="index.php?page=about">About</a>
 			<a href="index.php?page=work">Work</a>
-			<a href="img/clifford_nelson_resume.pdf" target="_blank">Resume</a>
+			<a href="img/clifford_nelson_resume_april2017.pdf" target="_blank">Resume</a>
 		</nav>
 	</div>
 

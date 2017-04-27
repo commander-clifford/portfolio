@@ -73,7 +73,7 @@
 				<li>Advise, collaborate with, and synthesize feedback from designers and researchers</li>
 			</ul>
 		</li>
-		<li><a class="resume_link" href="img/clifford_nelson_resume_june2016.pdf" target="_blank">...download for more</a></li>
+		<li><a class="resume_link" href="img/clifford_nelson_resume_april2017.pdf" target="_blank">...download for more</a></li>
 		<!-- <li>
 			SOFTWARE ENGINEER (USER EXPERIENCE) EXPERIS IT / IBM; SAN DIEGO, CA 2014-PRESENT
 			• User Experience Engineer: Design and Implement User Interfaces for enterprize customers
@@ -118,5 +118,5 @@
 <!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
 
 <div class="resume_footer text-right">
-	<a class="resume_footer-link" href="img/clifford_nelson_resume.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: April 2017">see the full downloadable resume <span class="glyphicon glyphicon-download"></span></a>
+	<a class="resume_footer-link" href="img/clifford_nelson_resume_april2017.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="last update: April 2017">see the full downloadable resume <span class="glyphicon glyphicon-download"></span></a>
 </div>
