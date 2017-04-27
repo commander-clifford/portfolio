@@ -12,7 +12,7 @@
 
 	<div class="footer-bottom">
 		<p class="text-right">
-			&copy;<?php auto_copyright("2013"); ?> Clifford Ryan Nelson. All rights reserved.
+			&copy;<?php auto_copyright("2012"); ?> Clifford Ryan Nelson. All rights reserved.
 		</p>
 	</div>
 
