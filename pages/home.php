@@ -61,17 +61,7 @@
 
 		</div>
 
-		<div class="projects container">
-			<div class="row panel">
-				<div class="col-xs-12">
-					<div id="projects">
-						<h2 class="heading-typ-1 wp"><a href="http://codepen.io/commander-clifford/#" target="_blank">Codepen.io</a></h2>
-						<p class="text-center"><a href="http://codepen.io/commander-clifford/#" target="_blank">CodePen.io</a> is my favorite playground for the front end web. My <a href="http://codepen.io/commander-clifford/#" target="_blank">"Tablets in Space"</a> pen was on the front page in 2014!</p>
-						<?php include 'components/projects-carousel.php'; ?>
-					</div>
-				</div>
-			</div>
-		</div>
+
 
 	</div>
 </div>
