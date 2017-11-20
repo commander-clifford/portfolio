@@ -2,19 +2,10 @@
 
 	"use strict";
 
-	var $win = $(window),
-	$cover = $("#cover"),
-	$coverContainer = $("#cover-container"),
-	$coverHeadline = $("#cover-headline"),
-	$innerWrapper = $("#under_cover-wrapper"),
-	$homeAvatar = $("#home-avatar");
+	const $win = $(window), $coverBlurry = $("#cover-blur");
 
-	$(document).ready(function(){
-		fitui();
-	});
-
-	$win.resize(function(){
-		fitui();
+	$('document').ready(function(){
+		// $("#page-wrapper").css("transform", "translateY(-50px)");
 	});
 
 	$win.scroll(function(){
@@ -22,34 +13,27 @@
 	});
 
 	$(function(){
-		$('[data-toggle="tooltip"]').tooltip()
+		$('[data-toggle="tooltip"]').tooltip();
 	});
-
-	function fitui(){
-		$cover.height( $win.height() );
-		$coverContainer.css("top", "calc( 50% - " + $coverContainer.height()/2 + "px)");
-		$innerWrapper.css("margin-top", $win.height()+"px");
-	}
 
 	function scrollBlur(){
 		var scrollPos = $win.scrollTop();
-		var coverHeight = $cover.height();
+		var coverHeight = $win.height();
 		if( scrollPos === 0 ){
-			// $homeAvatar.removeClass("active").addClass("deactivate");
-			$coverContainer.css( "opacity", 1 );
-			$coverContainer.css( "filter", "blur(0px)" );
-			$coverContainer.css( "transform", "translateY(0px)" );
+			$coverBlurry.css( "opacity", 1 );
+			$coverBlurry.css( "filter", "blur(0px)" );
+			$coverBlurry.css( "transform", "translateY(0px) rotateX(0deg)" );
 		} else if( scrollPos <= coverHeight ){
-			// $homeAvatar.removeClass("deactivate").addClass("active");
-			$coverContainer.css( "opacity", (1 - ( scrollPos / coverHeight )) );
-			$coverContainer.css( "filter", "blur("+ (10 * ( scrollPos / coverHeight )) +"px)" );
-			$coverContainer.css( "transform", "translateY("+ (1 - (.75 * ((coverHeight / 2) * (scrollPos / coverHeight))) ) +"px)" );
+			$coverBlurry.css( "opacity", (1 - ( scrollPos / coverHeight )*0.5) );
+			$coverBlurry.css( "filter", "blur("+ (10 * ( scrollPos / coverHeight )) +"px)" );
+			$coverBlurry.css( "transform", "translateY("+ (1 - (.85 * ((coverHeight / 2) * (scrollPos / coverHeight))) ) +"px) rotateX("+ (scrollPos/coverHeight) * 55 +"deg) scale("+ (1 - (scrollPos/coverHeight) * 0.2) +")" );
 		} else {
-			$coverContainer.css( "opacity", 0 );
-			$coverContainer.css( "filter", "blur(10px)" );
+			$coverBlurry.css( "opacity", 0 );
+			$coverBlurry.css( "filter", "blur(10px)" );
 		}
 	}
 
+    // TODO make this modular
 	$( "#deck_plate-toggle" ).click(function() {
 		if ( $("#deck_plate-toggle").hasClass("active") ) {
 
