@@ -4,7 +4,7 @@
 .work {
 	&.cards {
 		&:hover > .card {
-			opacity: 0.5;
+			opacity: 0.25;
 			// filter: opacity(0.5);
 			// filter: grayscale(50%) blur(2px) opacity(0.5);
 			// transform: scale(0.99);
@@ -13,7 +13,7 @@
 			padding: 1px;
 			margin: 0;
 			opacity: 1;
-			transition: all 0.5s ease .25s;
+			transition: all 400ms ease-out 0ms;
 
 			> a {
 				display: block;
@@ -30,16 +30,18 @@
 				color: white;
 				margin: 0 1px;
 				padding: 1em;
-				// transform: scaleY(0);
-				transform: rotateX(90deg);
+				transform: scaleY(0);
+				// transform: rotateX(90deg);
 				transform-origin: bottom;
 				transform-style: preserve-3d;
-				transition: all 0.5s ease;
+				transition: all 200ms ease-out;
 				.title {
 					margin: 0;
 					font-weight: normal;
+					font-size: 4em;
 				}
 				.description {
+					display: none;
 					margin-top: 1em;
 					color: inherit;
 					line-height: 1.2;
@@ -50,10 +52,10 @@
 				opacity: 1;
 				// filter: grayscale(0%) blur(0px);
 				// transform: scale(1);
-				perspective: 100px;
+				// perspective: 100px;
 				.content {
-					// transform: scaleY(1);
-					transform: rotateX(0deg);
+					transform: scaleY(1);
+					// transform: rotateX(0deg);
 				}
 			}
 		}
@@ -114,7 +116,7 @@
 	}
 
 
-	.sub-page__nav {
+	.sub_page-nav {
 		position: relative;
 		z-index: 1;
 		padding-top: 1em;

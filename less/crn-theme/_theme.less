@@ -6,6 +6,16 @@ body {
 	#gradient .radial( lighten(@brand-primary, 10%), @brand-primary );
 }
 
+figure {
+	figcaption{
+		text-align: center;
+		padding: 1em 0;
+		font-size: 1.25em;
+		font-style: italic;
+		color: #111111;
+	}
+}
+
 .deck_plate-toggle {
 	text-decoration: none;
 	cursor: pointer;
@@ -15,9 +25,18 @@ body {
 	top: 0;
 	right: 0;
 	font-size: 2em;
-	padding: 2em 4em;
+	padding: 0.5em;
 	text-shadow: -1px 1px 2px rgba(0,0,0,0.25),
 		-1px 1px 1px rgba(0,0,0,0.29);
+	@media screen and (min-width: @screen-xs-min) {
+
+	}
+	@media screen and (min-width: @screen-sm-min) {
+		padding: 2em 4em;
+	}
+	@media screen and (min-width: @screen-md-min) {
+
+	}
 	&:hover {
 		text-decoration: none;
 		color: @brand-primary;
@@ -78,7 +97,6 @@ body {
 	.panel();
 }
 
-
 //
 //
 // --------------------------------------------------
@@ -88,7 +106,9 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
 	padding: 0;
 	transition: left .25ms ease;
 	&.active {
@@ -98,10 +118,15 @@ body {
 }
 
 .cover {
+	width: 100vw;
+	height: 100vh;
+
 	color: @brand-primary-accent;
 	text-align: center;
 	&-container {
 		position: relative;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 	&-headline {
 		.text3d();
@@ -129,6 +154,45 @@ body {
 		}
 		margin-top: .5em;
 		color: inherit;
+	}
+}
+
+.r-img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.flex {
+
+	&-row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		&:nth-of-type(even) { flex-direction: row-reverse; }
+		.flex-50p {
+			width: 100%;
+			@media screen and (min-width: @screen-xs-min) {
+				width: 100%;
+			}
+			@media screen and (min-width: @screen-sm-min) {
+				width: 50%;
+			}
+			@media screen and (min-width: @screen-md-min) {
+				width: 50%;
+			}
+		}
+	}
+
+
+
+}
+
+.about_me-section {
+	padding: 8em 0;
+	div {
+		padding: 0 4em;
 	}
 }
 
@@ -189,6 +253,7 @@ body {
 
 .under_cover-wrapper {
 	position: relative;
+	margin-top: 100vh;
 	// background-color: @brand-primary-accent;
 
 }
@@ -259,13 +324,12 @@ body {
 
 .social {
 	&-wrapper {
-		.clearfix();
-		width: fit-content;
-		width: fit-content;
-		margin: 40px auto 0;
+		margin: 40px 0 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	&-item {
-		float: left;
 		padding: 0.5em;
 		background: transparent;
 		margin: 0 1em 1.5em;
