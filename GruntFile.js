@@ -9,8 +9,8 @@ module.exports = function(grunt) {
 	var dd = version.getDate();
 	var mm = version.getMonth()+1;
 	var yyyy = version.getFullYear();
-	if(dd<10) { dd='0'+dd } 
-	if(mm<10) { mm='0'+mm } 
+	if(dd<10) { dd='0'+dd }
+	if(mm<10) { mm='0'+mm }
 	version = yyyy+''+mm+''+dd+'-'+hh+':'+mi+':'+ss;
 
   	// Project configuration.
@@ -97,10 +97,10 @@ module.exports = function(grunt) {
   	grunt.registerTask('default', ['watch']);
 
   	// Local content development task
-	grunt.registerTask('localdev', ['watch']); 
+	grunt.registerTask('localdev', ['watch']);
 
 	// Local content development task
-	grunt.registerTask('build', ['watch']);  
+	grunt.registerTask('build', ['watch']);
 
 
-};
+};
