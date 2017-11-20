@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 	    // Add Vendor Prefixes to style declarations only when neccesary ( according to 'Can I Use' )
 	    autoprefixer: {
 		    options: {
-		        browsers: ['last 2 versions', 'Firefox <= 30', 'ie >= 8']
+		        browsers: ['last 2 versions', 'ie >= 8']
 		    },
 		    dev: {
 		        options: {
