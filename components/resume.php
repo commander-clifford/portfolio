@@ -21,9 +21,9 @@
 	<h2 class="resume_sub-headline">Technical</h2>
 
 	<ul class="un-list">
-		<li><span class="list-title">Languages &amp; Frameworks:</span> HTML, CSS (LESS/SASS), JavaScript, jQuery, JSON, PHP, JAVA, MySQL</li>
+		<li><span class="list-title">Languages &amp; Frameworks:</span> HTML, CSS (LESS/SASS), JavaScript, jQuery, React, Angular, JSON, PHP, MySQL</li>
 		<li><span class="list-title">Software &amp; Other:</span> JIRA, Git, Grunt, IntelliJ IDEA, Jenkins, Adobe Creative Suite ( PS, AI, AN, PR, ID )</li>
-		<li><span class="list-title">Practices:</span> Agile Development, Test Driven Development, Mobile First Responsive Web Design</li>
+		<li><span class="list-title">Practices:</span> Agile Development, Mobile First Responsive Web Design</li>
 	</ul>
 
 	<!-- -_-_-_-_-_-_-_-_-_-_-_-_-_-_- -->
@@ -66,6 +66,14 @@
 
 	<ul class="un-list">
 		<li>
+			<span class="title">Senior Creative Developer</span> AKQA <span class="text-right"></span>
+			<ul>
+				<li>Production environment developing direct mailers for client</li>
+				<li>Pixel perfect production from PSD to HTML.</li>
+				<li>HTML/CSS for email user agents.</li>
+			</ul>
+		</li>
+		<li>
 			<span class="title">Software&nbsp;Engineer &amp; Experience&nbsp;Design&nbsp;Prototyper</span> Intuit&nbsp;TurboTax <span class="text-right"></span>
 			<ul>
 				<li>2015-2017, on contract through Integrated Associates</li>
@@ -73,7 +81,6 @@
 				<li>Advise, collaborate with, and synthesize feedback from designers and researchers</li>
 			</ul>
 		</li>
-		<li><a class="resume_link" href="img/clifford_nelson_resume_april2017.pdf" target="_blank">...download for more</a></li>
 		<!-- <li>
 			SOFTWARE ENGINEER (USER EXPERIENCE) EXPERIS IT / IBM; SAN DIEGO, CA 2014-PRESENT
 			• User Experience Engineer: Design and Implement User Interfaces for enterprize customers
