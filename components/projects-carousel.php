@@ -1,3 +1,10 @@
+<!--
+	TODO is this used and or necessary for projects
+	consider removing
+	also see less/carousel.less
+-->
+
+
 <!-- <div class="projects container">
 	<div class="row panel">
 		<div class="col-xs-12">
