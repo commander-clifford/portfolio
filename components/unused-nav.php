@@ -1,4 +1,14 @@
-<nav id="sub-page__nav" class="sub-page__nav navbar navbar-default container layer-margin" style="display:none;">
+<!--
+	SUB_PAGE NAVIGATION
+	this nav lives in the home page under the under_cover
+
+	UPDATE: DEPRECIATED
+	- simplifying nav to only side drawer nav
+	- this component was part of the old design and is no longer used
+	- leaving in directory for archive and reference sake.
+-->
+
+<nav id="sub_page-nav" class="sub_page-nav navbar navbar-default container layer-margin" style="display:none;">
 	<div class="container-fluid" >
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
