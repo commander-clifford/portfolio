@@ -17,7 +17,6 @@
 			<!-- Header -->
 			<header class="intro-header row">
 				<div class="col-xs-12">
-					<!-- <h1 class="heading-typ-1 main-heading">Designer &amp; Engineer</h1> -->
 					<h1 class="heading-typ-1 wp wp main-heading">Hi! I'm Clifford</h1>
 					<p class="">I like to design with code</p>
 				</div>
@@ -35,18 +34,17 @@
 							With a background in design and engineering, I think with an artistic and scientific mindset - bringing a unique perspective to the table.
 						</p>
 						<p>
-							After high-school I did a tour in the <span class="bold">Navy</span> where I studied <span class="bold">electronics engineering</span>.
-							While gaining experience working with complex electronic and electromechanical systems, I also gained a lot of other key values.
+							To start my career, I did a tour in the <span class="bold">Navy</span> where I studied electronics engineering.
+							Later, I received an honorable discharge from the Navy and I joined a <span class="bold">Department of Defense Contractor</span>.
+							Where I worked on the Navy's shipboard CCTV systems as the lead engineer for the prototyping and build of the next generation broadcast studio system for larger Navy vessels.
 						</p>
 						<p>
-							A few years later, I received an honorable discharge from the Navy and I joined a <span class="bold">Department of Defense Contractor</span> where I was able to use my talents to improve the Navy's shipboard entertainment systems.
-							During my tenure with the Defense Media Activity I was the lead engineer for the prototyping and build of the next generation broadcast studio system for larger Navy vessels.
-						</p>
-						<p>
-							Since then I've studied <span class="bold">psychology, design and engineering</span> where I've really honed in on user advocacy.
-							Today, my favorite exercise is collaborating with team members to build game changing experiences from the ground up.
+							I've studied <span class="bold">engineering, psychology and design</span>, in 2014 I graduated with a Bachelors Degree in Web Design and had a 4.0 GPA.
+							Today, my favorite exercise is collaborating with team members to design and build game changing experiences from the ground up. <a href="index.php?page=about"> ...see more.</a>
 						</p>
 						<p class="italic">
+							<br>
+							<br>
 							<em>“Good design is obvious. Great design is transparent.” — Joe Sparano</em>
 						</p>
 					</div>
