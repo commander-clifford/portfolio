@@ -1,3 +1,7 @@
+<!--
+	TODO this could be much more modular/dynamic, very manual/static currently
+-->
+
 <header class="work-header">
 	<h1 class="work-header-headline heading-typ-1">Work Examples</h1>
 	<!-- <p class="work-header-subheadline">...well not everything, just a few of my favorite things ;)	</p> -->
@@ -9,7 +13,18 @@
 
 		<!-- loop -->
 
-		<!-- Project: Fundraiser -->
+			<!-- Project: Turbotax -->
+			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<a class="" href="<?=$index?>&project=turbotax">
+				<img class="img-responsive" src="img/hero.turbotax.png">
+				<div class="content">
+					<h2 class="title">Turbotax</h2>
+					<p class="description">Intuit Turbotax marketing homepage</p>
+				</div>
+				</a>
+			</div>
+
+			<!-- Project: Fundraiser -->
 			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
 				<a class="" href="<?=$index?>&project=fundraisr">
 				<img class="img-responsive" src="img/hero.fundraisr.png">
