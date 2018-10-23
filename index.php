@@ -69,8 +69,33 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
 	<script src="js/vendor/bootstrap.min.js"></script>
+
 	<script src="js/plugins.js"></script>
+
+	<script src="js/instafeed.js"></script>
+
+<script type="text/javascript">
+	var feed = new Instafeed({
+		get: 'user',
+
+		userId: '3530247962',
+
+		sortBy: 'most-recent',
+
+		limit: '16',
+
+		target: 'ig-cards',
+		template: '<a class="ig-card" href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
+
+		clientId: '1c4b30b17e6140078e906c8437ec2eee',
+		accessToken: '3530247962.1c4b30b.93182a17404b4aaaaae2f852c2f04086'
+	});
+	feed.run();
+</script>
+
+
 	<script src="js/script.js"></script>
 
 <?php

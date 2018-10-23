@@ -1,7 +1,5 @@
 <?php
-
 	$index = "index.php"; // used inside sub_page_nav for back button
-
 ?>
 
 <div id="about" class="sub-page about-page container-fluid">
@@ -21,17 +19,17 @@
 				</div>
 			</div>
 
-
-
 			<section class="about_me-section flex-row">
+
 				<div class="flex-50p">
 					<p>
 						<strong>Professional points</strong><br>
 						<ul class="">
 							<li class="li">HTML5/CSS3/JS</li>
 							<li class="li">CSS frameworks such as LESS, SASS</li>
-							<li class="li">JavaScript frameworks: React, Angular, jQuery</li>
-							<li class="li">Animations and motion using CSS3, and/or JavaScript libraries like GSAP</li>
+							<li class="li">Expert level of understanding of Responsive Web Design</li>
+							<li class="li">JavaScript frameworks: jQuery, React, Angular</li>
+							<li class="li">Animations and motion from design to development using CSS3, and/or JavaScript libraries like GSAP</li>
 							<li class="li">"Self-starter" attitude and ability to make decisions independently</li>
 							<li class="li">Helpful, can-do attitude and a willingness to take ownership of problems</li>
 							<!-- <li class="li">Moderate computer science fundamentals and object oriented language</li>
@@ -44,16 +42,18 @@
 						</ul>
 					</p>
 				</div>
+
 				<div class="flex-50p">
 					<figure>
 						<img class="r-img" src="img/IMG_6505.jpg" alt="">
 						<figcaption>This is a photo of me at one of the selfie spots on the Facebook Campus.</figcaption>
 					</figure>
 				</div>
+
 			</section>
 
 			<!-- EXPLORE -->
-			<section class="about_me-section flex-row">
+			<section class="about_me-section flex-row text-center">
 				<div class="flex-50p">
 					<p>
 						<strong>I like to explore</strong><br>
@@ -69,7 +69,7 @@
 			</section>
 
 			<!-- DOGS -->
-			<section class="about_me-section flex-row">
+			<section class="about_me-section flex-row text-center">
 				<div class="flex-50p">
 					<p>
 						<strong>My dogs</strong><br>
@@ -85,7 +85,7 @@
 			</section>
 
 			<!-- DAD -->
-			<section class="about_me-section flex-row">
+			<section class="about_me-section flex-row text-center">
 				<div class="flex-50p">
 					<p>
 						<strong>I'm a dad!</strong><br>
@@ -102,7 +102,7 @@
 			</section>
 
 			<!-- SILICON VALLEY -->
-			<!-- <section class="about_me-section flex-row">
+			<!-- <section class="about_me-section flex-row text-center">
 				<div class="flex-50p">
 					<p>
 						<strong>Silicon Valley called.</strong><br>
@@ -118,7 +118,7 @@
 			</section> -->
 
 			<!-- ARM -->
-			<section class="about_me-section flex-row">
+			<section class="about_me-section flex-row text-center">
 				<div class="flex-50p">
 					<p>
 						<strong>I still have my arm!</strong><br>

@@ -112,12 +112,12 @@
 				</a>
 			</div>
 
-			<!-- Project: Morphing Menus -->
+			<!-- Project: Morphing Icons -->
 			<div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<a class="" href="<?=$index?>&project=morphing-menus">
+				<a class="" href="<?=$index?>&project=morphing-icons">
 				<img class="img-responsive" src="img/hero.menu.png">
 				<div class="content">
-					<h2 class="title">Morphing Menus</h2>
+					<h2 class="title">Morphing Icons</h2>
 					<p class="description">Micro animations</p>
 				</div>
 				</a>
@@ -212,4 +212,19 @@
 
 		</div>
 	<!-- </div> -->
+
+
 </div>
+
+<header class="work-header" style="margin-top: 40px">
+	<h1 class="work-header-headline heading-typ-1">Just for fun</h1>
+	<!-- <p class="work-header-subheadline">...well not everything, just a few of my favorite things ;)	</p> -->
+</header>
+<div class="" >
+	<p data-height="600" data-theme-id="29267" data-slug-hash="qZXrmJ" data-default-tab="js,result" data-user="commander-clifford" data-embed-version="2" data-pen-title="Interactive landscape" class="codepen">See the Pen <a href="https://codepen.io/commander-clifford/pen/qZXrmJ/">Interactive landscape</a> by Clifford Ryan Nelson (<a href="https://codepen.io/commander-clifford">@commander-clifford</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</div>
+<div class="">
+	<p data-height="900" data-theme-id="29267" data-slug-hash="dRryZe" data-default-tab="css,result" data-user="commander-clifford" data-embed-version="2" data-pen-title="Vertical Stagger In" class="codepen">See the Pen <a href="https://codepen.io/commander-clifford/pen/dRryZe/">Vertical Stagger In</a> by Clifford Ryan Nelson (<a href="https://codepen.io/commander-clifford">@commander-clifford</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</div>
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
